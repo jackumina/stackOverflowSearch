@@ -31,7 +31,7 @@ def handle_search(change):
         for data in response.json()['items']:
           # if text in bar is a substring of a question
           # print question and link to answer
-          if search_value in data['title']:
+          if search_value.upper() in data['title'].upper():
             print(data['title'])
             print(data['link'])
             print()
