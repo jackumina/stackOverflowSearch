@@ -3,4 +3,4 @@ This project uses api.stackexchange.com (stackoverflow's api) to simulate its se
 I used python to do get requests and IpyWidgets for the simple UI.
 
 How to run:
-  - Copy and paste the code in the ... file and paste it into a notebook
+  - Copy and paste the code in the index.py file and paste it into a notebook
